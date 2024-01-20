@@ -58,13 +58,20 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-  font-size: 2rem;
+.logo a{
+  font-size: 2rem; 
+  text-decoration: none;
+  
 }
 
 .logo:hover {
   cursor: default;
+  text-decoration: none;
+
 }
+
+
+
 
 /* HAMBURGER MENU */
 
@@ -145,6 +152,29 @@ a:hover {
 .hamburger-icon span:first-child {
   transform: none;
 }
+
+/* Video Demos */
+
+#video{
+  height: 500px;
+  width: 800px;
+  margin-left: 315px;
+}
+
+#about-project{
+  padding-bottom: 30px;
+}
+
+#project-description{
+  display: flex;
+  text-align:center;
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px ;
+  
+}
+
 
 /* SECTIONS */
 
@@ -276,11 +306,13 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .about-containers,
 .about-details-container {
   display: flex;
+
 }
 
 .about-pic {
@@ -317,6 +349,7 @@ section {
 /* EXPERIENCE SECTION */
 
 #experience {
+  padding-top: 100px;
   position: relative;
 }
 
@@ -358,12 +391,11 @@ article .icon {
 #projects {
   position: relative;
   margin-bottom: 2rem;
-  margin-top: 2rem;
 }
 
 #projects-2 {
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   
 }
 
