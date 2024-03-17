@@ -221,7 +221,7 @@ section {
 
 .section__text__p2 {
   font-size: 1.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 30px;
 }
 
 .title {
@@ -249,6 +249,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin-bottom: 50px;
 }
 
 .btn {
@@ -454,6 +455,12 @@ article .icon {
 
 .contact-icon {
   cursor: default;
+}
+
+#main-pic{
+  display: flex;
+  justify-content: center;
+  
 }
 
 .email-icon {
